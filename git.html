@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Git</title>
+</head>
+
+<body>
+        <h1>Curso de desarrollo web para chicos</h1>
+
+        <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="html.html">HTML</a></li>
+                    <li><a href="css.html">CSS</a></li>
+                    <li><a href="javascript.html">JavaScript</a></li>
+                    <li><a href="git.html">Git</a></li>
+                    <li><a href="slack.html">Slack</a></li>
+                </ul>
+        </nav>
+    <h2>GIT</h2>
+    <p>Usamos como guía el video <a href="https://www.youtube.com/watch?v=HiXLkL42tMU&t=837s">Git y Github | Curso Práctico de Git y Github Desde Cero</a></p>
+    <h3>Estados</h3>
+    <ul>
+        <li>working directory</li>
+        <p>Todos los archivos que estamos trabajando y que todavia no le informamos a <b>git</b> que van a ser parte del proyecto</p>
+        <li>staging area</li>
+        <p>En este estado estan los archivos que vamos a subir al proyecto</p>
+        <li>repository</li>
+        <p>Este es el proyecto con todos los archivos que forman parte de nuestro repositorio</p>
+    </ul>
+    
+    <h3>Comandos básicos</h3>
+    <p>Todos los comandos se ejecutan desde una terminal</p>
+    <ul>
+        <li>Init</li>
+            <p>se utiliza para inicializar git en una proyecto. Hay que ir a la carpeta y ejecutar el comando <b>git init</b> </p>
+        <li>add [archivo]</li>
+        <p>permite subir archivos desde el <b>working area</b> al <b>staging area</b></p> y sirve para decir cuales archivos van a formar parte del proximo commit. Se utiliza ejecutando <b>git add nombreArchivo.extension</b>. Si se quiere subir todo lo pemdiente, se puede cambiar el nombre del archivo por un punto, asi: <p>git add .</p> 
+        <li>checkout</li>
+        <p>este comando sirve para varias cosas, queremos sacar un archivo del working area y recuperar la version anterior, hay que correr el comando <b>git checkout nombre.archivo</b></p>
+        <p>Tambien sirve para cambiar entre branchs (lo vemos despues)</p>
+        <li>diff</li>
+        <li>log</li>
+        <li>status</li>
+        Este comando sirve para saber que archivos estan el el staging area y cuales no.
+        <li>commit</li>
+        con commit enviamos los archivos que estan en el working area, al repositorio. Siempre hay que informar un comentario para ir documentando lo que se va integrando al proyecto. Se ejecuta asi <b>git commit -m "Aca va el comentario"</b>
+        <li>branch</li>
+    </ul>
+    <h3>GitHub</h3>
+    <ul>
+        <li>remote</li>
+        <li>push</li>
+        <li>pull</li>
+        <li>clone</li>
+    </ul>
+    
+
+    <h3>archivo .gitignore</h3>
+</body>
+</html>
