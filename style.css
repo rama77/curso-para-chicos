@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    text-align: center;
+    color: #e51c23;
+    font: normal 46px "Roboto Condensed", Helvetica, sans-serif;
+    border-bottom: #e040fb solid 5px;
+    width: 750px;
+    margin: 10px auto;
+}
+nav li {
+    list-style: none;
+    display: inline;
+    margin: 0 10px;
+    font: normal 20px verdana;
+    
+}
+.menu {
+    background: #03a9f4;
+    padding: 5px 20px;
+    margin: 0;
+    text-decoration: none;
+}
+
+li a {
+    color:white;
+}
+
+a:link {
+    text-decoration: none;
+  }
+  
